@@ -123,6 +123,10 @@
           }
         }
       }
-    }},
-  "defaultProject": "angular-leaflet"
+    }
+  },
+  "defaultProject": "angular-leaflet",
+  "cli": {
+    "analytics": false
+  }
 }
