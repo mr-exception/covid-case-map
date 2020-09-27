@@ -22,7 +22,7 @@ export class CovidService {
     );
   }
   public getCountriesGeometry(): Observable<ICountryFullLayout[]> {
-    return this.http.get<ICountryFullLayout[]>(`/assets/countries.json`);
+    return this.http.get<ICountryFullLayout[]>(`assets/countries.json`);
   }
   public getCountriesGeometryCleaned(): Observable<ICountrySummaryLayout[]> {
     return this.getCountriesGeometry().pipe(
